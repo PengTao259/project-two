@@ -1,21 +1,19 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>
 
-<style>
+<style lang="scss">
+@import url('./assets/css/reset.css');
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
